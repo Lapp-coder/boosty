@@ -7,8 +7,8 @@ import (
 )
 
 type Subscriber struct {
-	HasAvatar bool `json:"hasAvatar"`
-	Payments  int  `json:"payments"`
+	HasAvatar bool    `json:"hasAvatar"`
+	Payments  float32 `json:"payments"`
 	Level     struct {
 		Deleted bool   `json:"deleted"`
 		Name    string `json:"name"`
