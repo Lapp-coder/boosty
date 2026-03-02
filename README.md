@@ -4,7 +4,7 @@
 
 ## Установка
 ```shell
-go get github.com/Lapp-coder/boosty
+go get github.com/Lapp-coder/boosty@v1.0.1
 ```
 
 ## Использование
